@@ -1,4 +1,6 @@
 #add comments
+
+#This is the branch from JK
 %pylab 
 import numpy as np
 
@@ -14,10 +16,9 @@ for i in range(8):
 imshow(h)
 colorbar()
 
-f = open('20130524 2760 1 2 3 later.txt')
+f = open('20130524 2760 1 2 4 later.txt')
 g = f.readlines()
 f.close()
-
 plate_no = 2760
 
 for idx in range(len(g)):
